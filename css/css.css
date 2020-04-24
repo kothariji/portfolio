@@ -1,0 +1,761 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    
+    font-family: 'Raleway';
+    color: white;
+}
+
+.fa-code{
+    font-family: 'FontAwesome';
+    font-style: normal;
+}
+
+.main {
+    background-image: url('dhruv.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    height: 1100px;
+    width: 100%;
+
+}
+
+.aboutme {
+
+
+    background-image: url('aboutme2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    height: 760px;
+    width: 100%;
+
+}
+
+.aboutmetext {
+
+    box-shadow: 0 33px 267px 0 rgba(0, 0, 0, 56.2), 0 37px 48px 0 rgba(0, 0, 0, 66.19);
+    border-radius: 0px 50px 50px 0px;
+    background-color: black;
+    height: 450px;
+    width: 650px;
+    color: white;
+    font-family: 'Raleway';
+    text-shadow: none;
+    font-size: 1.5em;
+    padding: 50px;
+
+}
+
+.abouthr {
+    border: 1px solid #FDA50F;
+    margin-top: -15px;
+    margin-left: 5px;
+    width: 300px;
+    
+}
+
+.aboutname {
+    font-size: 3.0em;
+    font-family: 'Prata';
+
+}
+
+.aboutrow {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.imageabout {
+    left: 60px;
+
+}
+
+#aboutmeimage {
+    border-radius: 50px 0px 0px 50px;
+    height: 450px;
+    width: 350px;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 33px 267px 0 rgba(0, 0, 0, 56.2), 0 37px 48px 0 rgba(0, 0, 0, 66.19);
+}
+
+.skills {
+
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+.skills img{
+    
+    width: 100%;
+    height: 100;
+    padding: 0;
+    margin: 20px 0px 0px 0px;
+}
+
+.achievements {
+
+    background-image: url('achback.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+}
+
+.achievementcard{
+    margin-top: 200px;
+    
+}
+.achimage{
+    
+    border-radius: 0px 100px 100px 0px;
+    background-image: linear-gradient( 69.7deg,  rgba(216,81,82,1) 40%, rgba(154,27,69,1) 100.1% );
+    
+    padding-bottom: 30px;
+    height: 550px;
+    font-size: 4.5em;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-orientation: sideways;
+    text-align:right;
+    text-orientation: sideways;
+}
+
+.achtext{
+    
+    padding-top: 15px;
+    font-family: 'Poppins';
+    border-radius: 0px 100px 100px 0px;
+    height: 550px;
+    background-color: white;
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+    
+}
+
+.achli {
+        margin: 0px 0px 0px 10px;
+        
+ }
+
+.achhr {
+    border: 2px solid whitesmoke;
+    border-radius: 200px;
+    width: 600px;
+    align-content: center;
+    margin: 10px 0px 10px 0px;
+    
+}
+
+.fa-trophy {
+    
+    font-family: 'FontAwesome';
+    font-style: normal;
+    color: black;
+}
+
+
+
+.contact{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+}
+
+.conhr {
+    border: 1px solid whitesmoke;
+    border-radius: 200px;
+    width: 500px;
+    align-content: center;
+    margin: 10px 0px 10px 315px;
+    
+}
+
+.madewithlove{
+    
+    margin-top: 100px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.fa-heart{
+    color: red;
+}
+
+
+
+
+
+
+
+#content {
+    text-align: center;
+    padding-top: 25%;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 10em;
+}
+
+h2 {
+    font-weight: 700i;
+    font-size: 3em;
+}
+
+hr {
+    width: 300px;
+    border-top: 10px sloid #f8f8f8;
+    border-bottom: 10px solif rgba(0, 0, 0, 0.2);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p > a:hover {
+    color: #d9d9d9;
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 1% 0 1% 0;
+}
+
+._12 {
+    font-size: 3.2em;
+}
+
+._14 {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 2.0em;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+
+}
+
+.footer-social-icons {
+    width: 850px;
+    display: block;
+    margin: 0 auto;
+}
+
+.social-icon {
+    color: #fff;
+    font-family: 'FontAwesome';
+
+}
+
+ul.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+
+.social-icons a {
+    color: #000000;
+    text-decoration: none;
+    font-size: x-large;
+    margin-right: 18px;
+}
+
+.fa-facebook {
+    padding: 10px 14px;
+    -o-transition: .05s;
+    -ms-transition: .05s;
+    -moz-transition: .05s;
+    -webkit-transition: .05s;
+    transition: .05s;
+    background-color: #fff;
+    font-size: xx-large;
+}
+
+.fa-facebook:hover {
+    background-color: #3d5b99;
+    color: #fff;
+    font-size: xx-large;
+}
+
+
+
+.fa-twitter {
+    padding: 10px 12px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #fff;
+}
+
+.fa-twitter:hover {
+    background-color: #00aced;
+    color: #fff;
+    font-size: xx-large;
+}
+
+.fa-instagram {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #fff;
+}
+
+.fa-instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: #fff;
+    font-size: xx-large;
+}
+
+.fa-youtube {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #fff;
+}
+
+.fa-youtube:hover {
+    background-color: #e64a41;
+    color: #fff;
+    font-size: xx-large;
+}
+
+.fa-linkedin {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #fff;
+}
+
+.fa-linkedin:hover {
+    background-color: #0073a4;
+    color: #fff;
+    font-size: xx-large;
+}
+
+.fa-github {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #fff;
+}
+
+.fa-github:hover {
+    background-color: #5a32a3;
+    color: #fff;
+    font-size: xx-large;
+}
+
+.newc {
+    padding-top: -15px;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/*-- Inspiration taken from abdo steif -->
+/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
+
+/* Navbar section */
+
+.nav {
+    font-family: "Raleway";
+    font-size: 62.5%;
+    font-size: 10px;
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    line-height: 65px;
+    text-align: center;
+     z-index: 10000;
+   top: 0px;
+}
+
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
+}
+
+.nav div.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.nav div.logo a:hover {
+    color: #ffcc00;
+}
+
+.nav div.main_list {
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+    padding-right: 3rem;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 2.0rem;
+}
+
+.nav div.main_list ul li a:hover {
+    color: #ffcc00;
+}
+
+
+/* Home section */
+
+
+
+.navTrigger {
+    display: none;
+}
+
+.nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+
+/* Media qurey section */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navTrigger {
+        display: block;
+    }
+    .nav div.logo {
+        margin-left: 15px;
+    }
+    .nav div.main_list {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    .nav div.show_list {
+        height: auto;
+        display: none;
+    }
+    .nav div.main_list ul {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #111;
+        /*same background color of navbar*/
+        background-position: center top;
+    }
+    .nav div.main_list ul li {
+        width: 100%;
+        text-align: right;
+    }
+    .nav div.main_list ul li a {
+        text-align: center;
+        width: 100%;
+        font-size: 3rem;
+        padding: 20px;
+    }
+    .nav div.media_button {
+        display: block;
+    }
+}
+
+
+/* Animation */
+/* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
+
+.navTrigger {
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    margin: auto;
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+}
+
+.navTrigger i {
+    background-color: #fff;
+    border-radius: 2px;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+}
+
+.navTrigger i:nth-child(1) {
+    -webkit-animation: outT 0.8s backwards;
+    animation: outT 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+.navTrigger i:nth-child(2) {
+    margin: 5px 0;
+    -webkit-animation: outM 0.8s backwards;
+    animation: outM 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+.navTrigger i:nth-child(3) {
+    -webkit-animation: outBtm 0.8s backwards;
+    animation: outBtm 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+.navTrigger.active i:nth-child(1) {
+    -webkit-animation: inT 0.8s forwards;
+    animation: inT 0.8s forwards;
+}
+
+.navTrigger.active i:nth-child(2) {
+    -webkit-animation: inM 0.8s forwards;
+    animation: inM 0.8s forwards;
+}
+
+.navTrigger.active i:nth-child(3) {
+    -webkit-animation: inBtm 0.8s forwards;
+    animation: inBtm 0.8s forwards;
+}
+
+@-webkit-keyframes inM {
+    50% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(45deg);
+    }
+}
+
+@keyframes inM {
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@-webkit-keyframes outM {
+    50% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(45deg);
+    }
+}
+
+@keyframes outM {
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@-webkit-keyframes inT {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@keyframes inT {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@-webkit-keyframes outT {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@keyframes outT {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@-webkit-keyframes inBtm {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+@keyframes inBtm {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+@-webkit-keyframes outBtm {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+@keyframes outBtm {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+.affix {
+    padding: 0;
+    background-color: #111;
+}
+
+
+
+.myH2 {
+	text-align:center;
+	font-size: 4rem;
+}
+.myP {
+	text-align: justify;
+	padding-left:15%;
+	padding-right:15%;
+	font-size: 20px;
+}
+@media all and (max-width:700px){
+	.myP {
+		padding:2%;
+	}
+}
